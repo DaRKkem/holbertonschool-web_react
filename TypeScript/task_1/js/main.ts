@@ -73,7 +73,7 @@ const printTeacher: printTeacherFunction = (firstName, lastName) => {
 const student = new StudentClass('John', 'Doe');
 
 
-// Affichages :
+// Affichage :
 console.log(teacher3);
 console.log(director1);
 console.log(printTeacher("John", "Doe"));

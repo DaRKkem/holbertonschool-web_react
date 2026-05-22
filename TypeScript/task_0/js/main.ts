@@ -1,3 +1,4 @@
+// Interfaces :
 interface Student {
     firstName: string;
     lastName: string;
@@ -5,6 +6,9 @@ interface Student {
     location: string;
 }
 
+
+
+// Constantes :
 const student1: Student = {
     firstName: 'John',
     lastName: 'Doe',
@@ -24,6 +28,9 @@ const studentsList: Student[] = [student1, student2];
 const table: HTMLTableElement = document.createElement('table');
 const tbody: HTMLTableSectionElement = document.createElement('tbody');
 
+
+
+// Affichage :
 studentsList.forEach((student: Student) => {
     const row: HTMLTableRowElement = tbody.insertRow();
     const cell1: HTMLTableCellElement = row.insertCell(0);
