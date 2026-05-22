@@ -50,7 +50,37 @@ function createEmployee(salary: number | string): Director | Teacher {
 
 
 
+// Fonctions de vérification :
+function isDirector(employee: Director | Teacher): employee is Director { // if employee is director is true then return employee is a director (instanceof)
+    return employee instanceof Director;
+}
+
+function executeWork(employee: Director | Teacher): string {
+    if (isDirector(employee)) {
+        return employee.workDirectorTasks();
+    }
+    return employee.workTeacherTasks();
+}
+
+
+
+// String literal types :
+type Subjects = 'Math' | 'History';
+
+function teachClass(todayClass: Subjects): string {
+    if (todayClass === 'Math') {
+        return 'Teaching Math';
+    }
+    return 'Teaching History';
+}
+
+
+
 // Affichage :
 console.log(createEmployee(200));
 console.log(createEmployee(1000));
 console.log(createEmployee('$500'));
+console.log(executeWork(createEmployee(200)));
+console.log(executeWork(createEmployee(1000)));
+console.log(teachClass('Math'));
+console.log(teachClass('History'));
