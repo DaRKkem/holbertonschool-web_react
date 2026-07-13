@@ -1,5 +1,16 @@
 # TypeScript
 
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue) ![Webpack](https://img.shields.io/badge/Webpack-5.0-blue)
+
+```typescript
+interface Student {
+  firstName: string;
+  lastName: string;
+  age: number;
+  location: string;
+}
+```
+
 TypeScript fundamentals across 6 incremental tasks, each with its own package.json, tsconfig.json, and webpack config.
 
 ---
@@ -17,11 +28,15 @@ TypeScript fundamentals across 6 incremental tasks, each with its own package.js
 
 Interfaces, types, classes, namespaces, ambient declarations, branded types, union types, type guards
 
-## Repository
+---
 
-GitHub repository: [holbertonschool-web_react](https://github.com/DaRKkem/holbertonschool-web_react)  
-Directory: `TypeScript/`
+Repository
+
+GitHub repository: holbertonschool-web_react
+Directory: TypeScript
 
 ---
 
-Author: **Damien Rossi** - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

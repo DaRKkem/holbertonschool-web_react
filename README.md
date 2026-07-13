@@ -1,5 +1,7 @@
 # Web React Specialization -- TypeScript Fundamentals
 
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue) ![Webpack](https://img.shields.io/badge/Webpack-5.0-blue) ![License](https://img.shields.io/badge/License-Holberton-yellow)
+
 This repository serves as the preparation phase for the Web React specialization at Holberton School. It focuses on mastering TypeScript fundamentals before diving into React development. The curriculum covers static typing, object-oriented programming patterns, type guards, ambient declarations, namespaces, and advanced typing techniques.
 
 ## Sub-Projects
@@ -17,4 +19,12 @@ This repository serves as the preparation phase for the Web React specialization
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Repository
+
+GitHub repository: holbertonschool-web_react
+
+---
+
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes
